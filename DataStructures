@@ -1,0 +1,48 @@
+# Task 4 - Data Structures Deep Dive
+
+# LIST
+numbers = [1, 2, 3, 4, 5]
+print("List:", numbers)
+
+# TUPLE
+colors = ("red", "blue", "green")
+print("Tuple:", colors)
+
+# DICTIONARY
+student = {
+    "name": "Susmitha",
+    "branch": "ECE",
+    "year": 4
+}
+print("Dictionary:", student)
+
+# SET
+unique_numbers = {1, 2, 3, 3, 4, 4}
+print("Set:", unique_numbers)
+
+# NESTED LIST
+matrix = [
+    [1, 2],
+    [3, 4]
+]
+print("Nested List:", matrix)
+
+# NESTED DICTIONARY
+employees = {
+    "emp1": {"name": "Ram", "salary": 25000},
+    "emp2": {"name": "Sam", "salary": 30000}
+}
+print("Nested Dictionary:", employees)
+
+# LIST COMPREHENSION
+squares = [x*x for x in range(1, 6)]
+print("Squares:", squares)
+
+# DICTIONARY COMPREHENSION
+square_dict = {x: x*x for x in range(1, 6)}
+print("Dictionary Comprehension:", square_dict)
+
+# Cleaning duplicate data using set
+data = [1, 2, 2, 3, 4, 4, 5]
+cleaned_data = list(set(data))
+print("Cleaned Data:", cleaned_data)
